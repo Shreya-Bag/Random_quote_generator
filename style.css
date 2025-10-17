@@ -32,5 +32,11 @@ body {
     border-radius: 5px;
   }
   
+  button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+  }
 
   

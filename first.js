@@ -41,5 +41,9 @@ function color(){
     element.style = `background: linear-gradient(135deg, rgb(${r},${g},${b}) 50%, rgb(${r1},${g1},${b1}) 50%)`;
 }
 
-setInterval(generate,5000);
-setInterval(color,5000);
+//setInterval(generate,5000);
+//setInterval(color,5000);
+
+let button = document.querySelector("button");
+button.addEventListener('click',generate);
+button.addEventListener('click',color);
